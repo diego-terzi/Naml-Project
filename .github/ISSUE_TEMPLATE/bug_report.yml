@@ -1,0 +1,57 @@
+name: Bug / Reproducibility Issue
+description: Report a bug or a problem reproducing results
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue. Please fill in as much detail as possible.
+
+  - type: input
+    id: python-version
+    attributes:
+      label: Python Version
+      placeholder: "e.g. 3.10.12"
+    validations:
+      required: true
+
+  - type: input
+    id: tensorflow-version
+    attributes:
+      label: TensorFlow Version
+      placeholder: "e.g. 2.13.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Run `python data_cleaning/data_cleaning.py`
+        2. Run `python main.py`
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      placeholder: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      placeholder: What actually happened? Include the full error traceback if applicable.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      placeholder: Any other context (OS, GPU/CPU, dataset path, etc.)

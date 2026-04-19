@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "MyNextMovie: VAE-Based Movie Recommendation System"
+abstract: >
+  A movie recommendation system built with a Variational Autoencoder (VAE)
+  trained on the MovieLens 100K dataset. Features a Streamlit web interface
+  supporting personalized recommendations for authenticated users and
+  genre-filtered top-rated movies for guests.
+authors:
+  - family-names: Terzi
+    given-names: Diego
+    email: terzi.diego02@gmail.com
+repository-code: "https://github.com/diego-terzi/Naml-Project"
+license: MIT
+date-released: "2025-03-02"
+keywords:
+  - variational autoencoder
+  - recommendation system
+  - collaborative filtering
+  - MovieLens
+  - deep learning
+  - streamlit
+  - tensorflow
+
+references:
+  - type: article
+    title: "The MovieLens Datasets: History and Context"
+    authors:
+      - family-names: Harper
+        given-names: F. Maxwell
+      - family-names: Konstan
+        given-names: Joseph A.
+    journal: "ACM Transactions on Interactive Intelligent Systems"
+    volume: 5
+    issue: 4
+    year: 2015
+    doi: "10.1145/2827872"
