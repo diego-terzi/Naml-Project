@@ -74,7 +74,8 @@ def load_vae_model():
     return loaded_model
 
 def login_user(user_id, password):
-    if password != "pass":
+    app_password = os.environ.get("APP_PASSWORD", "pass")
+    if password != app_password:
         return False
     try:
         user_id = int(user_id)

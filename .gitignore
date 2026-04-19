@@ -13,3 +13,6 @@ saved_models/*
 training_loss_plot.png
 __pycache__
 *.keras
+data/ml-100k/
+data/seen_movies.json
+.github-audit/
