@@ -9,6 +9,7 @@ genre-filtered top-rated movies for guests.
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-app-red.svg)](https://streamlit.io/)
+[![Release](https://img.shields.io/github/v/release/diego-terzi/Naml-Project)](https://github.com/diego-terzi/Naml-Project/releases/latest)
 
 ---
 
